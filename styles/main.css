@@ -16,3 +16,26 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+.header{
+	min-height: 1024px;;
+}
+.header_title {
+}
+.about {
+}
+.about_left {
+}
+.about_title {
+	font-weight: 400;
+font-size: 96px;
+line-height: 125%;
+text-transform: uppercase;
+color: var(--primary-black);
+}
+.about_text_1 {
+}
+.about_right {
+}
+.about_text_2 {
+}
