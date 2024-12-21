@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 html {
   box-sizing: border-box;
 }
@@ -5,6 +6,9 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+body {
+  font-family: "Roboto", serif;
 }
 .container {
   max-width: 1440px;
