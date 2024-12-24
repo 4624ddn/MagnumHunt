@@ -10,6 +10,9 @@ html {
 body {
   font-family: "Roboto", serif;
 }
+a {
+  text-decoration: none;
+}
 .container {
   max-width: 1440px;
   width: 100%;
@@ -17,25 +20,101 @@ body {
   padding: 0 20px;
 }
 
-.header{
-	min-height: 1024px;;
+.header {
+  min-height: 911px;
+  background-image: url(../img/main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.header_title {
+.header__title {
+  padding-top: 8px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.logo {
+	width: 45%;
+  padding-top: 40px;
+  max-width: 440px;
+  max-height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.logo__img {
+  width: 30%;
+}
+.menu-main {
+  width: 49%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.menu {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 2vw;
+}
+.menu-btn {
+  a {
+    font-family: var(--font3);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 143%;
+    text-transform: uppercase;
+    color: #303030;
+  }
+}
+.lang {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 8px;
+}
+.lang-btn {
+  a {
+    font-family: var(--font3);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 143%;
+    text-transform: uppercase;
+    color: #303030;
+  }
+}
+.title-h1 {
+	width: 295px;
+	height: 192px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 64px;
+line-height: 100%;
+color: #ffffff;
+}
+.title-h4 {
+	width: 333px;
+	height: 132px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 44px;
+line-height: 100%;
+color: #ffffff;
 }
 .about {
 }
-.about_left {
+.about__left {
 }
-.about_title {
-	font-weight: 400;
-font-size: 96px;
-line-height: 125%;
-text-transform: uppercase;
-color: var(--primary-black);
+.about__title {
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: var(--primary-black);
 }
-.about_text_1 {
+.about__text_1 {
 }
-.about_right {
+.about__right {
 }
-.about_text_2 {
+.about__text_2 {
 }
